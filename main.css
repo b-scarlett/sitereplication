@@ -1,0 +1,270 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px; 
+    font-weight: 300;
+      
+}
+a{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+width: 100%;
+object-fit: contain;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    
+}
+.navbar img{
+    width: 48px;
+    height: 56px;
+    
+
+}
+.buttons button {
+    background-color: white;
+    border: none;
+    color: #e45826;
+    padding: 5px 10px;
+    font-weight: 600;
+   
+    
+}
+
+.buttons button:hover{
+    color: white;
+    background-color: #e45826;
+}
+
+.welcome {
+    background-color: #4a3933;
+    width: 100%; 
+    height: 300px;   
+}
+.welcome h1, .welcome h2{
+    color: #f0a500;
+    margin: 10px;
+}
+.welcome img{
+    object-fit: cover;
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+    float: right;
+}
+.welcome p{
+    color: white;
+    margin: 10px;
+
+}
+
+.welcome button{
+    background-color: #e45826;
+    border: none;
+    color: white;
+    font-weight: 650;
+    margin: 25px;
+    padding: 10px;
+}
+.welcomecontainer{
+    display: flex;
+}
+.section-label{
+    margin: 20px;
+}
+.section-comment{
+    margin-bottom: 15px;
+}
+
+.offering-sections{
+    width: 100%;
+    margin-bottom: 30px;
+    color: #444444;
+    padding: 30px;
+}
+.offerings{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+  
+
+}
+
+.offer-text{
+    background-color: #f8f5f1;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(161, 159, 159);
+    border-radius: 3px;
+    padding: 20px 30px;
+}
+    
+
+.offer-text-two{
+    border-top: 30px solid #e45826;
+    border-right: 5px solid #e45826;
+    border-bottom: 5px solid #e45826;
+    border-left: 5px solid #e45826;
+    padding: 20px;
+    
+}
+.offer-text h2{
+    margin-top: 20px;
+}
+.most-pop{
+    margin-top: -50px;
+    color: #ffffff;
+}
+
+
+.offer-text-three{
+    background-color: #f8f5f1;
+    padding: 4px;
+    
+}
+
+.offerings button{
+    background-color: #e45826;
+    border: none;
+    width: 180px;
+    color: white;
+    font-weight: 600;
+    align-content: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+.offer-text-two label{
+    background-color: #e45826;
+    border: none;
+    width: 500px;
+    color: white;
+    align-content: center;
+    
+
+}
+.benefits-section {
+    background-color: #e6d5b8;
+    width: 100%; 
+    color: #444444;
+    
+}
+
+.ben-hon{
+    padding-top: 40px;
+    margin-left: 15px;
+}
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:25px;
+    margin-top: 48px;
+    padding: 30px;
+}
+
+.testimonial-section{
+    color: #444444;
+    padding: 20px;
+   
+}
+
+.testimonies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    
+   }
+
+.testimonies :hover{
+    background-color: #e45826;
+    color: #ffffff;
+}
+    
+
+.tests{
+    background-color: #f8f5f1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgb(161, 159, 159);
+}
+.tests img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.lower-ribbon{
+    background-color: #4a3933;
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.lower-ribbon button{
+    background-color: #e45826;
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.lower-ribbon h1{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #444444;
+    
+}
+.footer-section a{
+    display: block;
+    text-decoration: none;
+    color: #e45826;
+    
+}
+.social-media i{
+    color: #444444;
+    margin-right: 4px;
+   
+}
+.footer{
+    padding: 40px 100px;
+}
+.footer p{
+    text-align: center;
+    color: #e45826;
+
+}
